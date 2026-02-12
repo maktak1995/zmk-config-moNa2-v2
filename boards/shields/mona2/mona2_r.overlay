@@ -72,3 +72,11 @@
                            <&zip_scroll_scaler 1 5>;                           //スクロール量を1/4倍
     };
 };
+
+&zip_temp_layer {
+    excluded-positions = <
+        16 // J
+        17 // K
+        18 // l
+    >;
+};
